@@ -1,0 +1,19 @@
+{
+  "visible_filenames": [
+    "AllTests.cpp",
+    "cyber-dojo.sh",
+    "instructions",
+    "makefile",
+    "triangle_type.c",
+    "triangle_type.h",
+    "triangle_type_test.cpp"
+  ],
+  "display_name": "C (gcc), CppUTest",
+  "image_name": "cyberdojofoundation/gcc_cpputest",
+  "filename_extension": ".c",
+  "tab_size": 4,
+  "progress_regexs": [
+    "Errors (.* ms)",
+    "OK (.* ms)"
+  ]
+}

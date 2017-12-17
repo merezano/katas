@@ -1,0 +1,1 @@
+This project was setup according to the recommendations at: http://stackoverflow.com/questions/3951808/using-googletest-in-eclipse-how/5800759#5800759
