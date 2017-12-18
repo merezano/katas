@@ -7,6 +7,13 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+<<<<<<< HEAD
+=======
+import Customer;
+import Movie;
+import Rental;
+
+>>>>>>> eedc9f581bd434bb657c835d02282ae0c7364bf0
 public class CustomerTest {
     Customer john, steve, pat, david;
     String johnName = "John", steveName = "Steve", patName = "Pat", davidName = "David";
@@ -63,7 +70,11 @@ public class CustomerTest {
     public static String rentalInfo(String startsWith, String endsWith, List<Rental> rentals) {
         String result = "";
         for (Rental rental : rentals)
+<<<<<<< HEAD
             result += String.format("%s%s%s%s%s\n", startsWith, rental.getMovie().getTitle()," ",
+=======
+            result += String.format("%s%s\t%s%s\n", startsWith, rental.getMovie().getTitle(),
+>>>>>>> eedc9f581bd434bb657c835d02282ae0c7364bf0
                     rental.getCharge(), endsWith);
         return result;
     }
