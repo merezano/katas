@@ -63,7 +63,7 @@ public class CustomerTest {
     public static String rentalInfo(String startsWith, String endsWith, List<Rental> rentals) {
         String result = "";
         for (Rental rental : rentals)
-            result += String.format("%s%s\t%s%s\n", startsWith, rental.getMovie().getTitle(),
+            result += String.format("%s%s%s%s%s\n", startsWith, rental.getMovie().getTitle()," ",
                     rental.getCharge(), endsWith);
         return result;
     }
