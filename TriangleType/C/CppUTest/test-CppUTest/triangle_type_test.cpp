@@ -22,7 +22,7 @@
 
 extern "C"
 {
-#include "triangle_type.h"
+#include "../include/triangle_type.h"
 }
 
 TEST_GROUP(ValidTriangles)

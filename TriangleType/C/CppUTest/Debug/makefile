@@ -45,7 +45,7 @@ all: TriangleType-CppUTest
 TriangleType-CppUTest: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L/usr/local/lib --coverage -o "TriangleType-CppUTest" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ --coverage -o "TriangleType-CppUTest" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

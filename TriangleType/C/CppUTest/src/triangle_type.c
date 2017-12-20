@@ -1,4 +1,4 @@
-#include "triangle_type.h"
+#include "../include/triangle_type.h"
 /*******************************************************************************
  * Copyright (c) 2010-2017, Construx Software, Inc., All Rights Reserved.
  *
